@@ -1,0 +1,7 @@
+frontend@0.1.0 /home/u/workplace/A+/20170927express/frontend
+├── moment@2.18.1 
+├── UNMET PEER DEPENDENCY react@16.0.0
+├── react-addons-shallow-compare@15.6.2 
+├── react-dates@12.6.0 
+└── UNMET PEER DEPENDENCY react-dom@16.0.0
+

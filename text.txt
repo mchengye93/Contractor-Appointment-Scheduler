@@ -1,0 +1,24 @@
+
+https://gist.github.com/JoeKarlsson/ebb1c714466ae3de88ae565fa9ba4779
+https://github.com/waiyaki/postgres-express-node-tutorial
+GRANT ALL ON DATABASE mydb TO staff;
+
+npm install --save sequelize-cli
+sequelize db:migrate
+ curl -d "username=test&email=abc@gmail.com&password=123&gender=M&location=addr&category=FF&price=2.1&description=description&role=user" -X POST "http://localhost:8000/api/users"
+ curl -d "username=test&password=123" -X POST "http://localhost:8000/api/users/check"
+ curl "http://localhost:8000/api/users/1"
+ curl -d "email=tt@g.com&password=123" -X POST "http://localhost:8000/api/users/1"
+ 
+ curl -d "title=tt1&content=cc" -X POST "http://localhost:8000/api/notes/1"
+ curl -d "title=tt2&content=cc2" -X POST "http://localhost:8000/api/notes/1/items/1"
+ 
+ curl -d "startdate=2017-10-04&enddate=2017-10-05" -X POST "http://localhost:8000/api/dates/1"
+ curl -d "startdate=2017-10-04&enddate=2017-10-06" -X POST "http://localhost:8000/api/dates/1/items/1"
+  curl "http://localhost:8000/api/notes/2/items/1"
+ 
+ 
+ 
+ 
+ http://technoetics.in/create-basic-login-forms-using-create-react-app-module-reactjs/?utm_source=hashnode.com
+ https://github.com/smhatre59/cloudstorage/blob/master/frontend/src/App.js
